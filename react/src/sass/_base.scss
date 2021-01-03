@@ -1,0 +1,109 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600&display=swap');
+
+@font-face {
+  font-family: 'Graphik';
+  src: url(./assets/Graphik.otf);
+}
+
+/* base */
+*,
+*::after,
+*::before{
+      margin: 0;
+      padding: 0;
+      border: 0;
+      box-sizing: inherit;
+  }
+
+html {
+    box-sizing: border-box;
+    font-size: 90%;
+    width: 100%;
+    color: $body;
+  }
+
+::selection {
+    background-color: $sand-bright;
+  }
+
+a {
+    text-decoration: none;
+    color: $body;
+    cursor: pointer;
+    &:hover{
+      font-style: italic;
+    }
+  } 
+
+//type
+h1 { 
+  font-size: 2.5rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Graphik', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+h4, button {
+    font-family: 'Graphik', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+h5, label {
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+h6 { 
+  font-size: .7rem;
+}
+
+p {
+
+}
+
+code {
+  font-family: monospace;
+  font-size: 1rem;
+  background-color: $sand3;
+  padding: 0.5rem;
+  border-radius: $border-small;
+}
+
+
+//remove and change default styling
+input {
+    font-family: 'Graphik', sans-serif; 
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    &:focus{
+      outline: none;
+      border: none;
+    }
+  }
+
+button {
+    background: none;
+    border: none;
+    padding: none;
+    cursor: pointer;
+    &:focus{
+      outline: none;
+    }
+  }

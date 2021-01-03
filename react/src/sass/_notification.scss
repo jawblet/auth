@@ -1,0 +1,8 @@
+.notifError {
+    display: block;
+    background-color: $error;
+    color: $off-white;
+    border-radius: $border-small;
+    border: 1px solid $accent-red;
+    padding: 1rem;
+}

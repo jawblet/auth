@@ -1,0 +1,53 @@
+//buttons
+.btn {
+        min-height: 3rem;
+        min-width: 3rem;
+        border-radius: $border-small; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all $short-fade;
+        &:hover {
+          box-shadow:  2px 2px 8px $shadow;  
+          border-radius: $border-small;
+        }
+        &:active {
+          background-color: $sand2;
+        }
+        &--active {
+          background-color: $sand3;
+          & .btn:hover {
+            box-shadow: none;
+          }
+        }
+        &--CTA {
+          width: 6rem;
+          background-color: $sand3;
+        }
+}
+
+//inline buttons
+.inlineBtn {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  &:hover{
+    font-style: italic;
+  }
+}
+
+.btnGroup {
+  display: flex;
+  & > * {
+    margin-right: 1rem; 
+  }
+}
+
+//react icons
+.icon {
+  font-size: 1.2rem; 
+  color: $body-lightest;
+}

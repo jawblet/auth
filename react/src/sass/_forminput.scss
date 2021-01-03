@@ -1,0 +1,17 @@
+.input {
+    background-color: $sand;
+    line-height: 1.5rem;
+    border: 3px solid $sand; 
+    border-radius: $border-small;
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    width: 100%;
+    &:focus {
+        border: 3px solid $sand3; }
+    &--fail {
+            border: 3px solid $error-light;
+            &:focus{
+              border: 3px solid $error; }
+          }
+    }

@@ -1,0 +1,14 @@
+.input {
+    &__pass {
+        position: relative;
+        color: $body-medium;
+      }
+}
+
+.showPasswordButton {
+    position: absolute;
+    display: inline;
+    left: 90%;
+    bottom: 35%;
+    cursor: pointer;
+  }

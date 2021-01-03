@@ -1,0 +1,15 @@
+.inlineForm {
+    width: 35%; 
+    text-align: center;
+    &__notif {
+      height: 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__submit {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+}

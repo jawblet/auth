@@ -1,0 +1,31 @@
+//text 
+$body: #31302C;
+$body-medium: rgb(68, 67, 62);
+$body-light: #72716B; 
+$body-lightest: #C3C2BD;
+
+
+//palette 
+$off-white: #fffdfa; 
+$sand: #fcf7f3;
+$sand2: #FFFAF0; 
+$sand3: #f3e8dc; 
+
+$error: #f39c81d9;
+$error-light: #f39c8199;
+
+$accent-red: #78201B;
+$sand-bright: #EBC57A;
+
+//spacing
+$border-large: 1rem;
+$border-small: 0.5rem; 
+
+//shadow
+$shadow: #DCD8D1; 
+$soft-shadow: 4px 4px 16px $shadow, 
+-4px -4px 16px #fff;
+
+//animation
+$short-fade: .35s;
+$long-fade: .75s;

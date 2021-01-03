@@ -1,0 +1,21 @@
+$base-line-height: 5rem;
+$pulse-duration: 3s;
+
+.loading {
+    display: flex;
+    align-items: center;
+    width: 10rem;
+    justify-content: center;
+}
+
+.pulse {
+    display: inline-block;
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+    background-color: $body-light;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+    animation: pulse $pulse-duration infinite;
+    animation-delay: ($pulse-duration / 3);
+}
